@@ -1,4 +1,5 @@
-n, t = map(int, input().split())
+n, t = input().split()
+n, t = int(n), float(t)
 nums = list(map(int, input().split()))
 
 avg = sum(nums) / n
